@@ -22,8 +22,6 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          # Exynos 7885
-          - a10
           # Exynos 990
           - s20
 
