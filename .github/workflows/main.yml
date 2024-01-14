@@ -52,4 +52,6 @@ jobs:
         with: # Artifact name
           name: ${{ matrix.device }}
           # A file, directory or wildcard pattern that describes what to upload
-          path: ./*.img
+          path: |
+            /home/runner/work/edk2-exynos/edk2-exynos/workspace/Build/s20/RELEASE_CLANG38/FV/EXYNOS990_UEFI.fd
+            ./*.img
